@@ -19,15 +19,6 @@ Tech Stack
 - Other:APIs, Dashboards, Analytics Tools
 Getting Started
 
-To run this portfolio locally:
-
-```bash
-# Clone the repository
-git clone https://github.com/your-username/your-portfolio-repo.git
-
-# Go into the project directory
-cd your-portfolio-repo
-
 # Install dependencies
 npm install
 
