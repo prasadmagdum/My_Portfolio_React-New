@@ -12,15 +12,3 @@ Sections
 - `Contact` — How to reach me.
 - `Download Resume` — Direct download of my latest resume.
 
-Tech Stack
-- Frontend: React JS, HTML, CSS
-- Backend: Django, Python
-- Languages:Python, Java (Basic), C, C++
-- Other:APIs, Dashboards, Analytics Tools
-Getting Started
-
-# Install dependencies
-npm install
-
-# Start the development server
-npm start
