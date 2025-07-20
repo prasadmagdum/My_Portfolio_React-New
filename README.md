@@ -12,3 +12,4 @@ Sections
 - `Contact` — How to reach me.
 - `Download Resume` — Direct download of my latest resume.
 
+![image alt](https://github.com/prasadmagdum/My_Portfolio_React-New/blob/bbd0c314b5e1f970fb25646049aee34e04b7511f/Screenshot%202025-07-20%20222714.png)
