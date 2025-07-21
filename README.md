@@ -4,12 +4,11 @@ Welcome to my personal portfolio website repository!
 This project showcases my work, skills, and interests as a final-year Computer Engineering (AIML) student.
 About Me
 Sections
-
-- `Home` — Introduction and tagline.
-- `Experience` — Details about my internship and skills gained.
-- `Activity` — My ongoing or past projects and learning activities.
-- `Technologies` — Tools and languages I use.
-- `Contact` — How to reach me.
-- `Download Resume` — Direct download of my latest resume.
+`Home` — Introduction and tagline.
+`Experience` — Details about my internship and skills gained.
+`Activity` — My ongoing or past projects and learning activities.
+`Technologies` — Tools and languages I use.
+`Contact` — How to reach me.
+`Download Resume` — Direct download of my latest resume.
 
 ![image alt](https://github.com/prasadmagdum/My_Portfolio_React-New/blob/bbd0c314b5e1f970fb25646049aee34e04b7511f/Screenshot%202025-07-20%20222714.png)
