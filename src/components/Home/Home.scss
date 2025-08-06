@@ -1,0 +1,44 @@
+@import "../../App.scss";
+.page-container{
+    
+    .profile-img{
+        width: 256px;
+        height: 256px;
+        margin: 0 auto 40px auto;
+        img{
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+    }
+    .profile-info{
+        width: 60%;
+        margin: 0 auto;
+        @include for-phone-only{
+            width: 85%;
+        }
+        @include for-tablet-only{
+            width: 85%;
+        }
+        h3{
+            font-size: 24px;
+            font-weight: 700;
+            color: $text-color;
+            @include for-phone-only{
+                font-size: 22px;
+            }
+            
+        }
+        p{
+            font-weight: 300;
+            color: $text-color;
+            font-size: 16px;
+            line-height: 1.5;
+            margin-top: 24px;
+            @include for-phone-only{
+                margin-top: 18px;
+            }
+        }
+    }
+}
