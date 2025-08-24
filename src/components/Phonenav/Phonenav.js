@@ -29,10 +29,10 @@ function Phonenav() {
       
     </ul>
     <div className="resume-btn">
-          <NavLink to="https://drive.google.com/file/d/1NWoOiAXgBM0brFRKmmMs3jPy_pljo7cq/view?usp=sharing" target="_blank">
-            Download Resume
-          </NavLink>
-        </div>
+        <a href="/Prasad Magdum .Resume.pdf" target="_blank" rel="noreferrer">
+          Download Resume
+        </a>
+    </div>
   </div>
   )
 }
