@@ -9,27 +9,19 @@ function Home() {
         <img src={profile} alt="profile" />
       </div>
       <div className="profile-info">
-        <h3>Prasad Magdum</h3>
-        <p>Code. Create. Contribute.</p>
+        <h3> Hi, I’m Prasad Magdum </h3>
+        <p>a fresher software developer with 6+ months of internship experience, where I worked on diverse projects including LMS, Donation Connect Platform, chat applications and E-Commerce Website </p>
         <p>
-          | React JS • Django • Python • Basic Java • Basic HTML & CSS • C & C++ |
+          I enjoy solving problems through code and have hands-on skills in React, Django, Python, and Java, along with experience in databases and API development.
         </p>
-        <p>Final Year CSE (AIML) Student | Open to Opportunities</p>
+        <p>Currently, I’m focused on expanding my knowledge in development and exploring advanced technologies.</p>
         <p>
-          I’m a final-year Computer Engineering student who loves building
-          practical tech solutions.
-        </p>
-        <p>
-          I enjoy working with React JS, Django, Python, and Java to create
-          useful web applications.
+          I’m seeking opportunities to contribute to meaningful projects while continuously learning and growing as a developer
         </p>
         <p>
-          During my internship, I gained hands-on experience with dashboards,
-          APIs, and analytics tools.
-        </p>
-        <p>
-          I’m always curious to learn and try out new technologies.
-        </p>
+         Outside of coding, you can often find me watching cricket matches, drawing, sketching, or traveling — activities that keep me inspired and creative.
+         </p>
+        
       </div>
     </div>
   );

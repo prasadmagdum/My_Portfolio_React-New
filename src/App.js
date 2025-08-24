@@ -11,7 +11,7 @@ import { TransitionGroup, CSSTransition } from "react-transition-group";
 import Phonenav from "./components/Phonenav/Phonenav";
 import { useContext } from "react";
 import GlobalContext from "./components/Context/Creactecontext";
-import Activity from "./components/Activity/Activity";
+import Certifications from "./components/Certifications/Certifications";
 
 
 function App() {
@@ -44,7 +44,7 @@ function App() {
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/experience" element={<Experience />} />
-              <Route path="/activity" element={<Activity />} />
+              <Route path="/certifications" element={<Certifications />} />
               {/* <Route path="/projects" element={<Projects />} /> */}
               <Route path="/technologies" element={<Technologies />} />
               <Route path="/contact" element={<Contact />} />

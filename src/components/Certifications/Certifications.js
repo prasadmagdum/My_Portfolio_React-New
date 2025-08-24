@@ -1,6 +1,6 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
-import "./Activity.scss";
+// import { NavLink } from "react-router-dom";
+import "./Certifications.scss";
 import image_EC from "../../Static/Images/EC.jpg";
 import image_PC from "../../Static/Images/PC.jpg";
 import image_AC from "../../Static/Images/AC.jpg";
@@ -13,41 +13,41 @@ const activityImages = [
     src: image_EC,
     alt: "Extra Curricular Activity",
     caption: "Extra Curricular",
-    pdf: "https://drive.google.com/file/d/1Ao9E7_BOplYd0RL9HLHoPygsX2ovYnxJ/view?usp=sharing",
+    pdf: "/certificates/EC.pdf",
   },
   {
     src: image_PC,
     alt: "Professional Certificate",
     caption: "Professional Certificate",
-    pdf: "https://drive.google.com/file/d/12B_nRe14rDI7nnur-nZaiueMDGEJ-8Na/view?usp=sharing",
+    pdf: "/certificates/PC.pdf",
   },
   {
     src: image_IC,
     alt: "Internship Certificate",
     caption: "Internship Certificate",
-    pdf: "https://drive.google.com/file/d/1n0BgwzWSdxQ0umcaKiwrSAxgRIfa4Rau/view?usp=sharing",
+    pdf: "/certificates/IC.pdf",
   },
   {
     src: image_AC,
     alt: "Internship Certificate",
     caption: "Internship Certificate",
-    pdf: "https://drive.google.com/file/d/1fAZ4ILCQmDT3og-QF_ZTl2r6qoBan1GH/view?usp=sharing",
+    pdf: "/certificates/AC.pdf",
   },
   {
     src: image_RC,
     alt: "React Certificate",
     caption: "React Certificate",
-    pdf: "https://drive.google.com/file/d/1PDMdRrLdT79OP6RtlcNr0wygU_y7U6s6/view?usp=sharing",
+    pdf: "/certificates/RC.pdf",
   },
   {
     src: image_JC,
     alt: "Java Certificate",
     caption: "Java Certificate",
-    pdf: "https://drive.google.com/file/d/1fAZ4ILCQmDT3og-QF_ZTl2r6qoBan1GH/view?usp=sharing",
+    pdf: "/certificates/JC.pdf",
   },
 ];
 
-function Activity() {
+function Certifications() {
   return (
     <div className="page-container">
       <div className="projects-container">
@@ -56,9 +56,9 @@ function Activity() {
             <img src={item.src} alt={item.alt} />
             <div className="overlay">
               <h3>{item.caption}</h3>
-              <NavLink to={item.pdf} target="_blank" rel="noreferrer">
+              <a href={item.pdf} target="_blank" rel="noreferrer">
                 View Certificate
-              </NavLink>
+              </a>
             </div>
           </div>
         ))}
@@ -67,4 +67,5 @@ function Activity() {
   );
 }
 
-export default Activity;
+
+export default Certifications;

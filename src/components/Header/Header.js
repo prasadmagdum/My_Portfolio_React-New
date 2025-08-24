@@ -11,7 +11,7 @@ function Header() {
   const menuItems = [
     { name: "Home", link: "/" },
     { name: "Experience", link: "/experience" },
-    { name: "Activity", link: "/activity" },
+    { name: "Certifications", link: "/certifications" },
     // { name: "Projects", link: "/projects" },
     { name: "Technologies", link: "/technologies" },
     { name: "Contact", link: "/contact" },
@@ -37,20 +37,18 @@ function Header() {
           ))}
         </div>
         <div className="resume-btn">
-          <NavLink
-            to="https://drive.google.com/file/d/1NWoOiAXgBM0brFRKmmMs3jPy_pljo7cq/view?usp=sharing"
-            target="_blank"
-          >
-            Download Resume
-          </NavLink>
+          <a href="/Prasad Magdum .Resume.pdf" target="_blank" rel="noreferrer">
+          Download Resume
+          </a>
         </div>
+
       </div>
       <Phonetoolbar />
       <div className="title-text">
         <h1>
-          Prasad Magdum |{" "}
+          Aspiring Developer |{" "}
           {path === "/"
-            ? "Fresher | Open to Opportunities "
+            ? "Passionate About Coding & Learning| "
             : path.split("/")[1].charAt(0).toUpperCase() +
               path.split("/")[1].slice(1)}
         </h1>

@@ -8,7 +8,7 @@ function Phonenav() {
     const menuItems = [
         { name: "Home", link: "/" },
         { name: "Experience", link: "/experience" },
-        { name: "Activity" , link:"/activity"},
+        { name: "Certifications" , link:"/certifications"},
         // { name: "Projects", link: "/projects" },
         { name: "Technologies", link: "/technologies" },
         { name: "Contact", link: "/contact" },
