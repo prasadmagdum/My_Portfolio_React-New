@@ -29,10 +29,10 @@ function Contact() {
         </div>
         <div className="item">
           <FaLocationArrow />
-          <span>Radhanagari, District Kolhapur</span>
+          <span>Pune, Maharashtra, India </span>
         </div>
         <div className="item">
-          <span>Birthday: September 15</span>
+          <span> 🎂 Birthday :   September 15</span>
         </div>
       </div>
       <div className="social-icons">
