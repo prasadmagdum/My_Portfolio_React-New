@@ -10,11 +10,11 @@ function Home() {
       </div>
       <div className="profile-info">
         <h3> Hi, I’m Prasad Magdum </h3>
-        <p>a fresher software developer with 6+ months of internship experience, where I worked on diverse projects including LMS, Donation Connect Platform, chat applications and E-Commerce Website </p>
+        <p>a fresher Web developer with 6+ months of internship experience, where I worked on diverse projects including LMS, Donation Connect Platform, chat applications and E-Commerce Website </p>
         <p>
-          I enjoy solving problems through code and have hands-on skills in React, Django, Python, and Java, along with experience in databases and API development.
+          I enjoy solving problems through code and have hands-on skills in React, Django, Python, and  Basic Java, along with experience in databases and API development.
         </p>
-        <p>Currently, I’m focused on expanding my knowledge in development and exploring advanced technologies.</p>
+        <p>Currently, I’m focused on expanding my knowledge in development and exploring advanced technologies, Upskilling in Data Analysis , AIML</p>
         <p>
           I’m seeking opportunities to contribute to meaningful projects while continuously learning and growing as a developer
         </p>
