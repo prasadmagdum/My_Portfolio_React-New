@@ -8,9 +8,22 @@ import {
   FaHtml5,
   FaCss3Alt,
   FaPython,
-  FaJava
+  FaJava,
+  FaGitAlt,
+  FaGithub,
+  FaNodeJs
 } from "react-icons/fa";
-import { SiDjango, SiCplusplus } from "react-icons/si";
+
+import {
+  SiDjango,
+  SiCplusplus,
+  SiPostgresql,
+  SiExpress,
+  SiVisualstudiocode,
+  SiPostman
+} from "react-icons/si";
+
+import { TbApi } from "react-icons/tb"; // Thunder Client alternative icon
 
 function Technologies() {
   const skills = [
@@ -22,6 +35,14 @@ function Technologies() {
     { name: "Django", icon: <SiDjango /> },
     { name: "Java (Basic)", icon: <FaJava /> },
     { name: "C & C++", icon: <SiCplusplus /> },
+    { name: "Node.js", icon: <FaNodeJs /> },
+    { name: "Express.js", icon: <SiExpress /> },
+    { name: "PostgreSQL", icon: <SiPostgresql /> },
+    { name: "Git", icon: <FaGitAlt /> },
+    { name: "GitHub", icon: <FaGithub /> },
+    { name: "VS Code", icon: <SiVisualstudiocode /> },
+    { name: "Postman", icon: <SiPostman /> },
+    { name: "Thunder Client", icon: <TbApi /> },
   ];
 
   return (
