@@ -12,7 +12,7 @@ function Header() {
     { name: "Home", link: "/" },
     { name: "Experience", link: "/experience" },
     { name: "Certifications", link: "/certifications" },
-    // { name: "Projects", link: "/projects" },
+    { name: "Projects", link: "/projects" },
     { name: "Technologies", link: "/technologies" },
     { name: "Contact", link: "/contact" },
   ];
@@ -37,7 +37,7 @@ function Header() {
           ))}
         </div>
         <div className="resume-btn">
-          <a href="/PrasadMagdum.Resume.pdf" target="_blank" rel="noreferrer">
+          <a href="/resume.pdf" target="_blank" rel="noreferrer">
           Download Resume
           </a>
         </div>

@@ -1,28 +1,28 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import "./Technologies.scss";
 import { FaCode } from "react-icons/fa";
 
+import {
+  FaReact,
+  FaJs,
+  FaHtml5,
+  FaCss3Alt,
+  FaPython,
+  FaJava
+} from "react-icons/fa";
+import { SiDjango, SiCplusplus } from "react-icons/si";
+
 function Technologies() {
   const skills = [
-    { name: "Python", value: 90},
-    { name: "HTML", value:65},
-    { name: "CSS", value: 70},
-    { name: "JavaScript", value:75},
-    { name: "React JS", value: 85 },
-    { name: "Django", value: 75 },
-    { name: "Java (Basic)", value: 60 },
-    { name: "C & C++", value: 60 }
+    { name: "React JS", icon: <FaReact /> },
+    { name: "JavaScript", icon: <FaJs /> },
+    { name: "HTML", icon: <FaHtml5 /> },
+    { name: "CSS", icon: <FaCss3Alt /> },
+    { name: "Python", icon: <FaPython /> },
+    { name: "Django", icon: <SiDjango /> },
+    { name: "Java (Basic)", icon: <FaJava /> },
+    { name: "C & C++", icon: <SiCplusplus /> },
   ];
-
-  const [isVisible, setIsVisible] = useState(false);
-
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      setIsVisible(true);
-    }, 500);
-
-    return () => clearTimeout(timer);
-  }, []);
 
   return (
     <div className="page-container">
@@ -30,26 +30,11 @@ function Technologies() {
         <FaCode />
       </div>
 
-      <div
-        className="progress-section"
-        data-aos="fade-left"
-        data-aos-once="true"
-      >
+      <div className="tech-grid">
         {skills.map((skill, index) => (
-          <div className="task-progress" key={index}>
-            <p>
-              {skill.name}
-              <span>{skill.value}%</span>
-            </p>
-            <div
-              className={`progress-container ${isVisible ? "visible" : ""}`}
-            >
-              <progress
-                className="progress progress1"
-                max="100"
-                value={isVisible ? skill.value : 0}
-              ></progress>
-            </div>
+          <div className="tech-card" key={index}>
+            <div className="tech-icon">{skill.icon}</div>
+            <p>{skill.name}</p>
           </div>
         ))}
       </div>

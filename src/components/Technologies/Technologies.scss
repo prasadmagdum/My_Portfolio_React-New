@@ -1,67 +1,64 @@
+@import "../../App.scss";
 
-   @import "../../App.scss";
-   .progress-section {
-        width: 80%;
-        max-width: 600px;
-        border-radius: 15px;
-        background: $primary;
-        padding: 1rem 2rem;
-        margin: 24px auto 0 auto;
-        @include for-phone-only{
-            padding: .5rem 1rem;
-        }
-      
-        .task-progress {
-          margin: 2.5rem 0;
-          @include for-phone-only{
-            margin: 1.5rem 0;
-          }
+/* Page container spacing */
+.page-container {
+  padding: 40px 0;
+}
 
-           p {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            color: #eee;
-            font-weight: 700;
-            font-size: 16px;
-            span {
-                color: #eee;
-              }
-          }
-        
-          
-        
-          .progress {
-            width: 100%;
-            -webkit-appearance: none;
-            appearance: none;
-            border: none;
-            border-radius: 10px;
-            height: 10px;
-          }
-        
-          .progress::-webkit-progress-bar {
-            background-color: #f0f0f0;
-          }
-        
-          .progress::-webkit-progress-bar,
-          .progress::-webkit-progress-value {
-            border-radius: 10px;
-          }
-        
-          .progress::-moz-progress-bar {
-            border-radius: 10px;
-          }
-        
-          .progress1::-webkit-progress-value {
-            background: #56b6ff;
-            transition: width 3s ease;
-          }
-          
-          
-          
-        }
-      
-        
-    
+/* Page icon (top symbol) */
+.page-icon {
+  display: flex;
+  justify-content: center;
+  font-size: 42px;
+  margin-bottom: 30px;
+  color: $primary;
+}
+
+/* Technology grid */
+.tech-grid {
+  width: 85%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 32px;
+
+  @include for-phone-only {
+    grid-template-columns: repeat(2, 1fr);
+    width: 90%;
+  }
+}
+
+/* Individual technology card */
+.tech-card {
+  background: #0c1226;
+  border-radius: 18px;
+  padding: 28px 20px;
+  text-align: center;
+  cursor: pointer;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.35);
+  transition: all 0.35s ease;
+
+  &:hover {
+    transform: translateY(-10px);
+    background: $primary;
+  }
+
+  &:hover .tech-icon,
+  &:hover p {
+    color: #fff;
+  }
+
+  .tech-icon {
+    font-size: 48px;
+    color: $primary;
+    margin-bottom: 14px;
+    transition: color 0.3s ease;
+  }
+
+  p {
+    color: #eaeaea;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 0.4px;
+  }
 }

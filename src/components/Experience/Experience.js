@@ -16,10 +16,10 @@ function Experience() {
         "Tested and validated APIs using Postman and Thunder Client for seamless integration.",
       ],
       skills: [
-        "Django REST Framework",
         "Python",
-        "MySQL",
-        "Django Admin",
+        "Django ",
+        "Django REST Framework",
+        "PostgreSQL",
         "Postman",
         "Thunder Client",
       ],
@@ -33,7 +33,7 @@ function Experience() {
         "Developed a mini user registration module with basic authentication and vault access.",
         "Implemented core backend logic using Java for handling user data securely.",
       ],
-      skills: ["Java"],
+      skills: ["Core Java"],
     },
   ];
 

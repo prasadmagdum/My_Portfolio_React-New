@@ -8,7 +8,7 @@ function Footer() {
     { name: "Home", link: "/" },
     { name: "Experience", link: "/experience" },
     {name:"Certifications", link: "/certifications" },
-    // { name: "Projects", link: "/projects" },
+    { name: "Projects", link: "/projects" },
     { name: "Technologies", link: "/technologies" },
     { name: "Contact", link: "/contact" },
   ];

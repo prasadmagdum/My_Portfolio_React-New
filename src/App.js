@@ -4,7 +4,7 @@ import { Routes, Route, useLocation } from "react-router-dom";
 import Home from "./components/Home/Home";
 import Footer from "./components/Footer/Footer";
 import Experience from "./components/Experience/Experience";
-// import Projects from "./components/Projects/Projects";
+import Projects from "./components/Projects/Projects";
 import Technologies from "./components/Technologies/Technologies";
 import Contact from "./components/Contact/Contact";
 import { TransitionGroup, CSSTransition } from "react-transition-group";
@@ -45,7 +45,7 @@ function App() {
               <Route path="/" element={<Home />} />
               <Route path="/experience" element={<Experience />} />
               <Route path="/certifications" element={<Certifications />} />
-              {/* <Route path="/projects" element={<Projects />} /> */}
+              <Route path="/projects" element={<Projects />} />
               <Route path="/technologies" element={<Technologies />} />
               <Route path="/contact" element={<Contact />} />
             </Routes>
