@@ -10,21 +10,21 @@ function Projects() {
     {
       title: "Rentora",
       image: Rentora,
-      desc: "Rentora is an online car rental platform that allows users to book cars easily.",
+      desc: "Rentora-Car Rental Management Platform",
       live: "https://rentora-cars-jd2r.vercel.app/",
       github: "https://github.com/prasadmagdum/rentora",
     },
     {
-      title: "Chat App using Socket Programming (Python)",
+      title: "Chat App using Socket Programming",
        image:chatapp,
-      desc: "A real-time chat application built using Python socket programming for client-server communication.",
+      desc: "A real-time chat application",
       github:
         "https://github.com/prasadmagdum/-Chat_app_using_socket_programming_in_Python.git",
     },
     {
       title: "Milk Products Website",
        image:milk,
-      desc: "A static website for showcasing milk and dairy products with a clean UI.",
+      desc: "Showcasing milk and dairy products with a clean UI.",
       github:
         "https://github.com/prasadmagdum/Milk-Products-site.git",
     },

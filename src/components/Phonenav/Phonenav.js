@@ -29,7 +29,7 @@ function Phonenav() {
       
     </ul>
     <div className="resume-btn">
-        <a href="/Prasad Magdum .Resume.pdf" target="_blank" rel="noreferrer">
+        <a href="/resume.pdf" target="_blank" rel="noreferrer">
           Download Resume
         </a>
     </div>
