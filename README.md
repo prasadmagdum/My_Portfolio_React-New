@@ -5,7 +5,7 @@ Smooth navigation & transitions
 About Me section
 Projects showcase with details & links
 Skills & Technologies used
-Contact form / contact details
+contact details
 Social media integration
 Hosting: GitHub Pages /Netlify
 
