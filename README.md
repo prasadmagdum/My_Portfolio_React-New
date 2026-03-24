@@ -1,4 +1,4 @@
-# A personal portfolio website built with React.js to showcase my projects, skills, and achievements.
+# A personal portfolio website built with ❤️ React.js.
 Features:
 Responsive design (mobile, tablet & desktop)
 Smooth navigation & transitions
