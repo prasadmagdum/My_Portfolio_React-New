@@ -2,6 +2,7 @@ import React from "react";
 import "./Projects.scss";
 import { MdWork } from "react-icons/md";
 import Rentora from "../../Static/Images/Rentora.jpg";
+import Needo from "../../Static/Images/Needo.jpg";
 import chatapp from "../../Static/Images/chatapp.jpg";
 import milk from "../../Static/Images/milk.jpg";
 
@@ -13,6 +14,13 @@ function Projects() {
       desc: "Rentora-Car Rental Management Platform",
       live: "https://rentora-cars-jd2r.vercel.app/",
       github: "https://github.com/prasadmagdum/rentora",
+    },
+    {
+      title: "Needo",
+       image:Needo,
+      desc: "Needo is a donation platform that connects donors with NGOs and people in need",
+      github:
+        "https://github.com/prasadmagdum/Needo-Helping-Those-in-Need.git",
     },
     {
       title: "Chat App using Socket Programming",
