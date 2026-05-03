@@ -11,9 +11,13 @@ function Experience() {
       location: "Pune, Maharashtra, India · Remote",
       description: [
         "Contributed to a Learning Management System (LMS) product by developing the Institute Space & Album Management module.",
-        "Designed and implemented REST APIs using Django REST Framework with filtering, search, and pagination.",
+        "Designed and implemented 10+ REST APIs using Django REST Framework with filtering, search, and pagination.",
+        "Implemented role-based access control for students and staff, ensuring secure and permission-based operations.",
         "Enabled role-based booking permissions and enhanced admin control through Django Admin Panel.",
-        "Tested and validated APIs using Postman and Thunder Client for seamless integration.",
+        "Designed and structured relational database models and serializers for handling complex space and media data.",
+        "Collaborated with frontend (React.js) team to ensure seamless API integration and resolved authentication and data flow issues.",
+        "Managed CI/CD pipelines and deployment processes.",
+        "Conducted API testing and debugging using Postman and Thunder Client, improving API reliability and reducing response errors by approximately 20–25%.",
       ],
       skills: [
         "Python",
