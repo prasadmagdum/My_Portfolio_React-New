@@ -56,16 +56,7 @@ function Technologies() {
     { name: "Machine Learning", icon: <FaBrain /> },
     { name: "Supervised Learning", icon: <FaBrain /> },
     { name: "Unsupervised Learning", icon: <FaBrain /> },
-    { name: "Linear Regression", icon: <FaBrain /> },
-    { name: "Logistic Regression", icon: <FaBrain /> },
-    { name: "Classification & Clustering", icon: <FaBrain /> },
-    { name: "Decision Trees", icon: <FaBrain /> },
-    { name: "Random Forest", icon: <FaBrain /> },
-    { name: "Neural Networks", icon: <FaBrain /> },
-    { name: "Deep Learning", icon: <FaBrain /> },
-    { name: "CNN", icon: <FaBrain /> },
-    { name: "RNN", icon: <FaBrain /> },
-    { name: "LSTM", icon: <FaBrain /> },
+
     { name: "Generative AI & LLMs", icon: <FaBrain /> },
     { name: "Prompt Engineering", icon: <FaBrain /> },
     { name: "Natural Language Processing", icon: <FaBrain /> },
@@ -74,7 +65,7 @@ function Technologies() {
     // AI Frameworks
     { name: "TensorFlow", icon: <SiTensorflow /> },
     { name: "Keras", icon: <SiKeras /> },
-    { name: "Scikit-learn", icon: <SiScikitlearn /> },
+   
   ];
 
   return (
