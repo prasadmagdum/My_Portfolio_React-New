@@ -52,15 +52,9 @@ function Technologies() {
     { name: "Thunder Client", icon: <TbApi /> },
 
     // AI & ML
-    { name: "Artificial Intelligence", icon: <FaBrain /> },
-    { name: "Machine Learning", icon: <FaBrain /> },
-    { name: "Supervised Learning", icon: <FaBrain /> },
-    { name: "Unsupervised Learning", icon: <FaBrain /> },
-
+    { name: "Artificial Intelligence & Machine Learning", icon: <FaBrain /> },
     { name: "Generative AI & LLMs", icon: <FaBrain /> },
-    { name: "Prompt Engineering", icon: <FaBrain /> },
-    { name: "Natural Language Processing", icon: <FaBrain /> },
-    { name: "Feature Engineering", icon: <FaBrain /> },
+
 
     // AI Frameworks
     { name: "TensorFlow", icon: <SiTensorflow /> },
