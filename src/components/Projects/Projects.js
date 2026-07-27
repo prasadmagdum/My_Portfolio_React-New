@@ -19,6 +19,7 @@ function Projects() {
       title: "Needo",
        image:Needo,
       desc: "Needo is a donation platform that connects donors with NGOs and people in need",
+      live: "https://needo-helping-those-in-need.netlify.app/",
       github:
         "https://github.com/prasadmagdum/Needo-Helping-Those-in-Need.git",
     },
