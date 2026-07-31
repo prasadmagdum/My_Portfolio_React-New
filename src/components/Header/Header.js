@@ -46,9 +46,9 @@ function Header() {
       <Phonetoolbar />
       <div className="title-text">
         <h1>
-          Aspiring Developer |{" "}
+          Computer Science (AI & ML) Graduate|{" "}
           {path === "/"
-            ? "Passionate About Coding & Learning| "
+            ? "Open TO Work"
             : path.split("/")[1].charAt(0).toUpperCase() +
               path.split("/")[1].slice(1)}
         </h1>

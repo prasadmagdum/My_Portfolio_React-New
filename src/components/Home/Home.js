@@ -10,18 +10,16 @@ function Home() {
       </div>
       <div className="profile-info">
         <h3> Hi, I’m Prasad Magdum </h3>
-        <p> A Computer Science fresher and Web Developer with 6+ months of internship experience, where I worked on real-world projects</p>
+        <p> Computer Science graduate specializing in AI & Machine Learning, seeking an entry-level developer role to apply hands-on 
+            experience building REST APIs and full-stack web applications. Comfortable across backend, frontend, and full-stack work, 
+            with strong CS fundamentals and an AI/ML foundation — eager to learn fast, ship reliable software, and grow into a 
+            well-rounded engineer. </p>
         <p>
-          I enjoy solving problems through code and have hands-on skills in React, Django, Python, and  Basic Java, along with experience in databases and API development.
-        </p>
-        <p>My primary strength is frontend development, with hands-on experience in React.js, JavaScript, HTML, and CSS, along with a solid working knowledge of backend technologies</p>
-        <p>Currently, I’m focused on expanding my knowledge in development and exploring advanced technologies, Upskilling in Data Analysis , AIML</p>
-        <p>
-          I’m seeking opportunities to contribute to meaningful projects while continuously learning and growing as a developer
+          I enjoy solving problems through code — hands-on across Python, Django, React.js, and Core Java, with a working knowledge of databases and API development, and a growing foundation in AI/ML.
         </p>
         <p>
-         Outside of coding, you can often find me watching cricket matches, drawing, sketching, or traveling activities that keep me inspired and creative.
-         </p>
+         Outside of coding, you'll find me watching cricket, sketching, or traveling — all of which keep me creative.
+        </p>
         
       </div>
     </div>

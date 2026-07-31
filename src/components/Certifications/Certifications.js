@@ -12,13 +12,13 @@ const activityImages = [
   {
     src: image_EC,
     alt: "Extra Curricular Activity",
-    caption: "Extra Curricular",
+    caption: "Full Stack Web Development Program",
     pdf: "/certificates/EC.pdf",
   },
   {
     src: image_PC,
     alt: "Professional Certificate",
-    caption: "Professional Certificate",
+    caption: "Python Programming",
     pdf: "/certificates/PC.pdf",
   },
   {
@@ -36,13 +36,13 @@ const activityImages = [
   {
     src: image_RC,
     alt: "React Certificate",
-    caption: "React Certificate",
+    caption: "React Bootcamp",
     pdf: "/certificates/RC.pdf",
   },
   {
     src: image_JC,
     alt: "Java Certificate",
-    caption: "Java Certificate",
+    caption: "Core Java ",
     pdf: "/certificates/JC.pdf",
   },
 ];
