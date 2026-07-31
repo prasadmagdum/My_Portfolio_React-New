@@ -10,7 +10,8 @@ function Home() {
       </div>
       <div className="profile-info">
         <h3> Hi, I’m Prasad Magdum </h3>
-        <p> Computer Science graduate specializing in AI & Machine Learning, seeking an entry-level developer & AI Engineer role to apply hands-on 
+        
+        <p> Computer Science graduate specializing in AI & Machine Learning, seeking an entry-level developer & AI Engineer rolegit  to apply hands-on 
             experience building REST APIs and full-stack web applications. Comfortable across backend, frontend, and full-stack work, 
             with strong CS fundamentals and an AI/ML foundation — eager to learn fast, ship reliable software, and grow into a 
             well-rounded engineer. </p>
