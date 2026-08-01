@@ -38,10 +38,10 @@ function Technologies() {
     { name: "CSS", icon: <FaCss3Alt /> },
     { name: "Python", icon: <FaPython /> },
     { name: "Django", icon: <SiDjango /> },
-    { name: "Java (Basic)", icon: <FaJava /> },
-    { name: "C & C++", icon: <SiCplusplus /> },
-    { name: "Node.js", icon: <FaNodeJs /> },
-    { name: "Express.js", icon: <SiExpress /> },
+    { name: "Core Java", icon: <FaJava /> },
+    { name: "Object-Oriented Programming ", icon: <SiCplusplus /> },
+    // { name: "Node.js", icon: <FaNodeJs /> },
+    // { name: "Express.js", icon: <SiExpress /> },
     { name: "PostgreSQL", icon: <SiPostgresql /> },
 
     // Tools
