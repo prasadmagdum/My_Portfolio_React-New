@@ -11,38 +11,39 @@ import {
   FaJava,
   FaGitAlt,
   FaGithub,
-  FaNodeJs,
-  FaBrain
+  FaBrain,
+  FaRobot,
 } from "react-icons/fa";
 
 import {
   SiDjango,
-  SiCplusplus,
   SiPostgresql,
-  SiExpress,
   SiVisualstudiocode,
   SiPostman,
   SiTensorflow,
   SiKeras,
-  SiScikitlearn
+  SiScikitlearn,
 } from "react-icons/si";
 
 import { TbApi } from "react-icons/tb";
 
 function Technologies() {
   const skills = [
-    // Frontend & Backend
+    // Frontend
     { name: "React JS", icon: <FaReact /> },
     { name: "JavaScript", icon: <FaJs /> },
-    { name: "HTML", icon: <FaHtml5 /> },
-    { name: "CSS", icon: <FaCss3Alt /> },
+    { name: "HTML5", icon: <FaHtml5 /> },
+    { name: "CSS3", icon: <FaCss3Alt /> },
+
+    // Backend
     { name: "Python", icon: <FaPython /> },
-    { name: "Django", icon: <SiDjango /> },
+    { name: "Django REST Framework", icon: <SiDjango /> },
     { name: "Core Java", icon: <FaJava /> },
-    { name: "Object-Oriented Programming ", icon: <SiCplusplus /> },
-    // { name: "Node.js", icon: <FaNodeJs /> },
-    // { name: "Express.js", icon: <SiExpress /> },
     { name: "PostgreSQL", icon: <SiPostgresql /> },
+    { name: "REST APIs", icon: <TbApi /> },
+
+    // Programming Concepts
+    { name: "Object-Oriented Programming", icon: <FaCode /> },
 
     // Tools
     { name: "Git", icon: <FaGitAlt /> },
@@ -52,14 +53,12 @@ function Technologies() {
     { name: "Thunder Client", icon: <TbApi /> },
 
     // AI & ML
-    { name: "Artificial Intelligence & Machine Learning", icon: <FaBrain /> },
-    { name: "Generative AI & LLMs", icon: <FaBrain /> },
-
-
-    // AI Frameworks
+    { name: "Artificial Intelligence", icon: <FaBrain /> },
+    { name: "Machine Learning", icon: <FaBrain /> },
+    { name: "Generative AI & LLMs", icon: <FaRobot /> },
     { name: "TensorFlow", icon: <SiTensorflow /> },
     { name: "Keras", icon: <SiKeras /> },
-   
+    { name: "Scikit-learn", icon: <SiScikitlearn /> },
   ];
 
   return (
