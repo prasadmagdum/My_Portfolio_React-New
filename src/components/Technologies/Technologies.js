@@ -23,6 +23,8 @@ import {
   SiTensorflow,
   SiKeras,
   SiScikitlearn,
+  SiNumpy,
+  SiPandas,
 } from "react-icons/si";
 
 import { TbApi } from "react-icons/tb";
@@ -56,6 +58,8 @@ function Technologies() {
     { name: "Artificial Intelligence", icon: <FaBrain /> },
     { name: "Machine Learning", icon: <FaBrain /> },
     { name: "Generative AI & LLMs", icon: <FaRobot /> },
+    { name: "NumPy", icon: <SiNumpy /> },
+    { name: "Pandas", icon: <SiPandas /> },
     { name: "TensorFlow", icon: <SiTensorflow /> },
     { name: "Keras", icon: <SiKeras /> },
     { name: "Scikit-learn", icon: <SiScikitlearn /> },

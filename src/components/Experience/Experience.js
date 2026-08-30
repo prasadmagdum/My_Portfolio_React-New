@@ -17,7 +17,7 @@ function Experience() {
         "Designed and structured relational database models and serializers for handling complex space and media data.",
         "Collaborated with frontend (React.js) team to ensure seamless API integration and resolved authentication and data flow issues.",
         "Managed CI/CD pipelines and deployment processes.",
-        "Conducted API testing and debugging using Postman and Thunder Client, improving API reliability and reducing response errors by approximately 20–25%.",
+        "Conducted API testing and debugging using Postman and Thunder Client, improving API reliability and reducing response errors.",
       ],
       skills: [
         "Python",
